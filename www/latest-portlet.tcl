@@ -47,7 +47,7 @@ foreach community $communities_list {
     latest::forums -pkgs_ids $pkgs_ids
     #Get latest file storage documents
     latest::fs -pkgs_ids $pkgs_ids
-    #Get latest assesments
+    #Get latest assessments
     latest::asm -pkgs_ids $pkgs_ids
     #Get latest lors objects
     # First check is lors is installed, if its not, then do nothing.
